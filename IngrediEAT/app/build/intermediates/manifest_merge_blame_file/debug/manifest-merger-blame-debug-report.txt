@@ -1,0 +1,150 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ingredieat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:6:5-71
+12-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:7:5-75
+13-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:8:5-78
+14-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:8:22-76
+15
+16    <application
+16-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:10:5-33:19
+17        android:name="com.example.ingredieat.IngredientEATApplication"
+17-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:11:13-53
+18        android:allowBackup="true"
+18-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:12:13-39
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@drawable/cooker2"
+21-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:13:13-45
+22        android:label="@string/app_name"
+22-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:14:13-45
+23        android:networkSecurityConfig="@xml/network_security_config"
+23-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:17:9-69
+24        android:supportsRtl="true"
+24-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:15:13-39
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:16:13-44
+27        <activity
+27-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:18:9-21:53
+28            android:name="com.example.ingredieat.acitivity.HomeActivity"
+28-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:19:17-55
+29            android:screenOrientation="portrait"
+29-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:20:17-53
+30            android:theme="@style/NoActionBar" />
+30-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:21:17-51
+31        <activity
+31-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:22:9-25:53
+32            android:name="com.example.ingredieat.acitivity.LoginActivity"
+32-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:23:17-56
+33            android:screenOrientation="portrait"
+33-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:24:17-53
+34            android:theme="@style/NoActionBar" />
+34-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:25:17-51
+35        <activity android:name="com.example.ingredieat.acitivity.WelcomeActivity" >
+35-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:26:9-31:20
+35-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:26:19-60
+36            <intent-filter>
+36-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:27:13-30:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:28:17-68
+37-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:28:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:29:17-76
+39-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:29:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="com.example.ingredieat.acitivity.BaseActivity" />
+42-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:32:9-60
+42-->/Users/songyanshan/Desktop/CS591 E1 Android/CS591_MobileApp_Assignments/IngrediEAT/app/src/main/AndroidManifest.xml:32:19-57
+43        <activity
+43-->[com.google.android.gms:play-services-auth:18.0.0] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/d6777383efc5d4e7689d28c52832110a/play-services-auth-18.0.0/AndroidManifest.xml:23:9-27:75
+44            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+44-->[com.google.android.gms:play-services-auth:18.0.0] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/d6777383efc5d4e7689d28c52832110a/play-services-auth-18.0.0/AndroidManifest.xml:24:13-93
+45            android:excludeFromRecents="true"
+45-->[com.google.android.gms:play-services-auth:18.0.0] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/d6777383efc5d4e7689d28c52832110a/play-services-auth-18.0.0/AndroidManifest.xml:25:13-46
+46            android:exported="false"
+46-->[com.google.android.gms:play-services-auth:18.0.0] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/d6777383efc5d4e7689d28c52832110a/play-services-auth-18.0.0/AndroidManifest.xml:26:13-37
+47            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+47-->[com.google.android.gms:play-services-auth:18.0.0] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/d6777383efc5d4e7689d28c52832110a/play-services-auth-18.0.0/AndroidManifest.xml:27:13-72
+48        <!--
+49            Service handling Google Sign-In user revocation. For apps that do not integrate with
+50            Google Sign-In, this service will never be started.
+51        -->
+52        <service
+52-->[com.google.android.gms:play-services-auth:18.0.0] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/d6777383efc5d4e7689d28c52832110a/play-services-auth-18.0.0/AndroidManifest.xml:33:9-36:110
+53            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+53-->[com.google.android.gms:play-services-auth:18.0.0] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/d6777383efc5d4e7689d28c52832110a/play-services-auth-18.0.0/AndroidManifest.xml:34:13-89
+54            android:exported="true"
+54-->[com.google.android.gms:play-services-auth:18.0.0] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/d6777383efc5d4e7689d28c52832110a/play-services-auth-18.0.0/AndroidManifest.xml:35:13-36
+55            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+55-->[com.google.android.gms:play-services-auth:18.0.0] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/d6777383efc5d4e7689d28c52832110a/play-services-auth-18.0.0/AndroidManifest.xml:36:13-107
+56
+57        <activity
+57-->[com.blankj:utilcode:1.15.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/649e7a070ad91ead72ed3e8f1a72ce6d/jetified-utilcode-1.15.1/AndroidManifest.xml:10:9-15:75
+58            android:name="com.blankj.utilcode.util.PermissionUtils$PermissionActivity"
+58-->[com.blankj:utilcode:1.15.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/649e7a070ad91ead72ed3e8f1a72ce6d/jetified-utilcode-1.15.1/AndroidManifest.xml:11:13-87
+59            android:configChanges="orientation|keyboardHidden|screenSize"
+59-->[com.blankj:utilcode:1.15.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/649e7a070ad91ead72ed3e8f1a72ce6d/jetified-utilcode-1.15.1/AndroidManifest.xml:12:13-74
+60            android:multiprocess="true"
+60-->[com.blankj:utilcode:1.15.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/649e7a070ad91ead72ed3e8f1a72ce6d/jetified-utilcode-1.15.1/AndroidManifest.xml:13:13-40
+61            android:theme="@style/ActivityTranslucent"
+61-->[com.blankj:utilcode:1.15.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/649e7a070ad91ead72ed3e8f1a72ce6d/jetified-utilcode-1.15.1/AndroidManifest.xml:14:13-55
+62            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+62-->[com.blankj:utilcode:1.15.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/649e7a070ad91ead72ed3e8f1a72ce6d/jetified-utilcode-1.15.1/AndroidManifest.xml:15:13-72
+63
+64        <provider
+64-->[com.blankj:utilcode:1.15.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/649e7a070ad91ead72ed3e8f1a72ce6d/jetified-utilcode-1.15.1/AndroidManifest.xml:17:9-25:20
+65            android:name="androidx.core.content.FileProvider4Util"
+65-->[com.blankj:utilcode:1.15.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/649e7a070ad91ead72ed3e8f1a72ce6d/jetified-utilcode-1.15.1/AndroidManifest.xml:18:13-67
+66            android:authorities="com.example.ingredieat.utilcode.provider"
+66-->[com.blankj:utilcode:1.15.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/649e7a070ad91ead72ed3e8f1a72ce6d/jetified-utilcode-1.15.1/AndroidManifest.xml:19:13-69
+67            android:exported="false"
+67-->[com.blankj:utilcode:1.15.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/649e7a070ad91ead72ed3e8f1a72ce6d/jetified-utilcode-1.15.1/AndroidManifest.xml:20:13-37
+68            android:grantUriPermissions="true" >
+68-->[com.blankj:utilcode:1.15.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/649e7a070ad91ead72ed3e8f1a72ce6d/jetified-utilcode-1.15.1/AndroidManifest.xml:21:13-47
+69            <meta-data
+69-->[com.blankj:utilcode:1.15.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/649e7a070ad91ead72ed3e8f1a72ce6d/jetified-utilcode-1.15.1/AndroidManifest.xml:22:13-24:68
+70                android:name="android.support.FILE_PROVIDER_PATHS"
+70-->[com.blankj:utilcode:1.15.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/649e7a070ad91ead72ed3e8f1a72ce6d/jetified-utilcode-1.15.1/AndroidManifest.xml:23:17-67
+71                android:resource="@xml/util_code_provider_paths" />
+71-->[com.blankj:utilcode:1.15.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/649e7a070ad91ead72ed3e8f1a72ce6d/jetified-utilcode-1.15.1/AndroidManifest.xml:24:17-65
+72        </provider>
+73
+74        <activity
+74-->[com.google.android.gms:play-services-base:17.1.0] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/593a54ff613c3d9a289e47a60d5f7b29/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:17.1.0] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/593a54ff613c3d9a289e47a60d5f7b29/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:17.1.0] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/593a54ff613c3d9a289e47a60d5f7b29/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:17.1.0] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/593a54ff613c3d9a289e47a60d5f7b29/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+78
+79        <meta-data
+79-->[com.google.android.gms:play-services-basement:17.1.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/8b6f95e2ab3bfcf8d3fc5e2d42072e79/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+80            android:name="com.google.android.gms.version"
+80-->[com.google.android.gms:play-services-basement:17.1.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/8b6f95e2ab3bfcf8d3fc5e2d42072e79/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.google.android.gms:play-services-basement:17.1.1] /Users/songyanshan/.gradle/caches/transforms-2/files-2.1/8b6f95e2ab3bfcf8d3fc5e2d42072e79/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+82    </application>
+83
+84</manifest>
